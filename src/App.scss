@@ -1,0 +1,60 @@
+@import "./Variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  height: 40px;
+  background: $primary-background;
+  color: $primary-color;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  margin: 5px;
+}
+
+.btn-primary:hover {
+  background: $primary-background;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  height: 40px;
+  background: $secondary-background;
+  color: $secondary-color;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  margin: 5px;
+}
+
+.btn-secondary:hover {
+  background: $secondary-background;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+
+.field {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 0 10px;
+  margin: 5px;
+}
+
+.label {
+  font-family: $font-family-primary;
+  margin: 5px;
+}
